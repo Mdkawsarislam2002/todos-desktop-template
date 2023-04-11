@@ -1,13 +1,11 @@
 import { useState } from 'react';
 import styles from './App.module.scss';
-import { NewCompo } from './components/new-compo/new-compo';
+import { GlobalButton } from './components/global-button/global-button';
 
 function App() {
-
-
     return (
         <div className={styles.App}>
-            <NewCompo />
+            <GlobalButton />
         </div>
     );
 }
